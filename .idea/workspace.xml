@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda5d3c4-d68b-448e-bb08-723943ff2a4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/strategy/context/BaseContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/observer/observers/ObserverAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/observer/observers/ObserverOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/observer/observers/ObserverTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/observer/subjects/BaseSubject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/strategy/implementations/StrategyImplementatioOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/strategy/implementations/StrategyImplementationOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/strategy/implementations/StrategyImplementationTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/strategy/implementations/StrategyImplementationTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/strategy/interfaces/StrategyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/strategy/interfaces/StrategyInterface.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567863854978</updated>
       <workItem from="1567863863224" duration="10648000" />
-      <workItem from="1567888833048" duration="558000" />
+      <workItem from="1567888833048" duration="2964000" />
     </task>
     <servers />
   </component>
