@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda5d3c4-d68b-448e-bb08-723943ff2a4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/state/context/ContextClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/state/states/StateInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/state/states/StateOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/state/states/StateTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot from 2019-09-08 09-59-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot from 2019-09-08 10-07-14.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/builder/ObjectOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/builder/ObjectOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/main/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,9 +37,11 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,7 +80,10 @@
       <updated>1567863854978</updated>
       <workItem from="1567863863224" duration="10648000" />
       <workItem from="1567888833048" duration="3683000" />
-      <workItem from="1567898452872" duration="1119000" />
+      <workItem from="1567898452872" duration="3817000" />
+      <workItem from="1567945370898" duration="609000" />
+      <workItem from="1567946118015" duration="19000" />
+      <workItem from="1567946618349" duration="1840000" />
     </task>
     <servers />
   </component>
@@ -96,5 +102,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

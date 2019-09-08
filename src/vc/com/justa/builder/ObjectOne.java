@@ -10,6 +10,10 @@ public class ObjectOne {
         this.attributeTwo = attributeTwo;
     }
 
+
+    /**
+     * Builder static class is the one who is going to be responsible for the logic to create the object.
+     */
     public static class Builder {
         private String attributeOne;
         private String attributeTwo;
