@@ -1,18 +1,20 @@
 package vc.com.justa.factory.implementations;
 
 import vc.com.justa.factory.classes.BaseClass;
-import vc.com.justa.factory.interfaces.BaseInterface;
 
-public class ImplementationTwo implements BaseInterface {
+public class ImplementationTwo extends BaseClass {
 
-    private BaseClass baseClass;
+    private String someOtherThingHereToo;
 
-    public ImplementationTwo(String something){
-        this.baseClass = new BaseClass(something);
+    public ImplementationTwo(int something, String someOtherThingHereToo){
+        super(something);
+        this.someOtherThingHereToo = someOtherThingHereToo;
+        System.out.println("Builds object with ImplementationTwo especifications: " + this.someOtherThingHereToo);
     }
 
     @Override
-    public BaseClass getBaseClass() {
-        return this.baseClass;
+    public void doSomething() {
+        System.out.println("Enters the method doSomething() of ImplementationTwo: " + this.someOtherThingHereToo);
     }
+
 }

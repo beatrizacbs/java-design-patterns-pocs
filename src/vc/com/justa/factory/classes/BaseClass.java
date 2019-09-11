@@ -1,10 +1,10 @@
 package vc.com.justa.factory.classes;
 
-public class BaseClass {
+public abstract class BaseClass {
 
-    private String something;
+    private int something;
 
-    public BaseClass(String something){
+    public BaseClass(int something){
         this.something = something;
     }
 
@@ -14,4 +14,6 @@ public class BaseClass {
                 "something='" + something + '\'' +
                 '}';
     }
+
+    public abstract void doSomething();
 }

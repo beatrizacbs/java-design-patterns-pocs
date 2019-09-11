@@ -24,7 +24,10 @@ public class SingletonObject {
      */
     public static SingletonObject getInstance(){
         if(instance == null){
+            System.out.println("Creates the new instance because it is required for the first time");
             instance = new SingletonObject();
+        }else{
+            System.out.println("Uses already created instance.");
         }
         return instance;
     }

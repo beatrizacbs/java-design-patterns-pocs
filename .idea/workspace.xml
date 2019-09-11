@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda5d3c4-d68b-448e-bb08-723943ff2a4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Screenshot from 2019-09-08 09-59-25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshot from 2019-09-08 10-07-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/factory/factory/ClassFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vc/com/justa/builder/ObjectOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/builder/ObjectOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/factory/classes/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/factory/classes/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/factory/implementations/ImplementationOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/factory/implementations/ImplementationOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/factory/implementations/ImplementationTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/factory/implementations/ImplementationTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/factory/interfaces/BaseInterface.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vc/com/justa/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/singleton/SingletonObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/singleton/SingletonObject.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jst-messaging-ms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,6 +64,26 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vc.com.justa.main.Main" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vc.com.justa.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -83,7 +107,11 @@
       <workItem from="1567898452872" duration="3817000" />
       <workItem from="1567945370898" duration="609000" />
       <workItem from="1567946118015" duration="19000" />
-      <workItem from="1567946618349" duration="1840000" />
+      <workItem from="1567946618349" duration="1933000" />
+      <workItem from="1568028060399" duration="2507000" />
+      <workItem from="1568034082688" duration="595000" />
+      <workItem from="1568042565736" duration="593000" />
+      <workItem from="1568222677407" duration="6112000" />
     </task>
     <servers />
   </component>
