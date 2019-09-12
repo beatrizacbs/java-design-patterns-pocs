@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda5d3c4-d68b-448e-bb08-723943ff2a4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/factory/factory/ClassFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer-uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/observer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/adapter/NewClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/adapter/OldClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/adapter/adapters/OldToNewAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state-uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/state.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/builder/ObjectOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/builder/ObjectOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/factory/classes/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/factory/classes/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/factory/implementations/ImplementationOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/factory/implementations/ImplementationOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/factory/implementations/ImplementationTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/factory/implementations/ImplementationTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/factory/interfaces/BaseInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot from 2019-09-08 09-59-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot from 2019-09-08 10-07-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/adapter/adapters/ObjectOneAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/adapter/adapters/ObjectTwoAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/adapter/interfaces/BaseInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/adapter/models/ObjectOneModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/adapter/models/ObjectTwoModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/observer/subjects/BaseSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/observer/subjects/BaseSubject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/adapter/adapters/ObjectOneAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/adapter/adapters/ObjectTwoAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/adapter/interfaces/BaseInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/adapter/models/ObjectOneModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/adapter/models/ObjectTwoModel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vc/com/justa/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/singleton/SingletonObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/singleton/SingletonObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/observer/subjects/BaseSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/observer/subjects/BaseSubject.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +126,8 @@
       <workItem from="1568028060399" duration="2507000" />
       <workItem from="1568034082688" duration="595000" />
       <workItem from="1568042565736" duration="593000" />
-      <workItem from="1568222677407" duration="6112000" />
+      <workItem from="1568222677407" duration="6249000" />
+      <workItem from="1568253584261" duration="3599000" />
     </task>
     <servers />
   </component>
