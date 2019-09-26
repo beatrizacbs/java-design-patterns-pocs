@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda5d3c4-d68b-448e-bb08-723943ff2a4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/prototype/BasePrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/prototype/PrototypeOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/prototype/PrototypeTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-uml.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator-uml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/decorator/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/decorator/BaseDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/decorator/BaseInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/decorator/DecoratorOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/decorator/DecoratorTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/facade/BaseOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/facade/BaseTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/facade/FacadeClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/main/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,12 +125,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@33b87f8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -152,6 +155,7 @@
       <workItem from="1568291018852" duration="2296000" />
       <workItem from="1568298913968" duration="587000" />
       <workItem from="1569465612804" duration="1668000" />
+      <workItem from="1569499089037" duration="7244000" />
     </task>
     <servers />
   </component>
@@ -173,5 +177,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/vc/com/justa/facade/BaseOne.java</url>
+          <line>4</line>
+          <properties class="vc.com.justa.facade.BaseOne" method="doSomethingBaseOne">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

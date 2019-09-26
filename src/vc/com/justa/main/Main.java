@@ -4,6 +4,7 @@ import vc.com.justa.adapter.NewClass;
 import vc.com.justa.adapter.OldClass;
 import vc.com.justa.adapter.adapters.OldToNewAdapter;
 import vc.com.justa.builder.ObjectOne;
+import vc.com.justa.facade.FacadeClass;
 import vc.com.justa.factory.factory.ClassFactory;
 import vc.com.justa.observer.observers.ObserverOne;
 import vc.com.justa.observer.observers.ObserverTwo;
@@ -19,17 +20,7 @@ public class Main {
 
         System.out.println("Starts demonstration of the design patterns implementation and functions.\nYou can debug the code if you want to see line by line.");
 
-        ContextClass contextClass = new ContextClass();
-
-        StateOne stateOne = new StateOne();
-        stateOne.doAction(contextClass);
-
-        System.out.println(contextClass.getState().toString());
-
-        StateTwo stateTwo = new StateTwo();
-        stateTwo.doAction(contextClass);
-
-        System.out.println(contextClass.getState().toString());
+        
 
     }
 

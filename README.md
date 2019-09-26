@@ -22,6 +22,7 @@ Neste artigo veremos os seguintes padrões criacionais:
 - ***Singleton***
 - ***Factory***
 - ***Builder***
+- **Prototype**
 
 ### Structural Patterns
 
@@ -30,6 +31,8 @@ São padrões de projeto que ***facilitam o relacionamento entre entidades***. O
 Neste artigo veremos os seguintes padrões estruturais:
 
 - ***Adapter***
+- ***Facade***
+- ***Decorator***
 
 ### Behavioral Patterns
 
@@ -539,6 +542,156 @@ Creates OldClass instance
 Turns old into new. You can do whatever here.
 Creates newClass instance
 vc.com.justa.adapter.NewClass@60e53b93`
+
+#### Facade
+
+![](./facade.png)
+
+Como o nome sugere Facade, **é realmente uma fachada.** Ele mantém dentro de sua implementação todos os processos necessários para construção de um objeto. É bastante utilizada quando existe um número grande de **classes interdependentes**. Algumas de suas vantagens são:
+
+- **Reduzir a complexidade de uma api,** liberando acesso a métodos de alto nível encapsulando os demais.
+- Produzir uma **interface comum e simplificada**.
+- Poder **encapsular uma ou mais interfaces mal projetadas** em uma mais concisa.
+- **Reduzir drasticamente o acoplamento** entre as camadas do projeto.
+
+Seu diagrama UML é o seguinte:
+
+![](./facade-uml.png)
+
+A implementação do facade é simples. O que precisa basicamente é a classe de fachada e o que exatamente você quer fazer com essa fachada, seja organizar chamadas para apis extesnas ou construir um objeto complicado (pode ser misturado com builder).
+
+Primeiro criaremos a classe base do facade.
+
+```java
+public class FacadeClass {    
+    /**     
+    * Method that runs a complicated task     
+    */    
+    public void doSomething(){        
+        System.out.println("Enters facade method");        
+        BaseOne baseOne = new BaseOne();        
+        BaseTwo baseTwo = new BaseTwo();        
+        baseOne.doSomethingBaseOne();        
+        baseTwo.doSomethingBaseTwo();    
+    }
+}
+```
+
+ Depois é só basicamente criar as classes que são utilizadas no facade (na implementação normal, você provavelmente já terá essas classes e faltará implementar apenas um facade)
+
+```java
+public class BaseOne {    
+    public void doSomethingBaseOne(){        
+        System.out.println("Does something with base one");    
+    }
+}
+```
+
+```java
+public class BaseTwo {    
+    public void doSomethingBaseTwo(){        
+        System.out.println("Does something with base two");    
+    }
+}
+```
+
+O facade é utilizado da seguinte maneira: 
+
+```java
+public static void main(String[] args){    
+    System.out.println("Starts demonstration of the design patterns implementation and functions.\nYou can debug the code if you want to see line by line.");    
+    FacadeClass fc = new FacadeClass();    
+    fc.doSomething();
+}
+```
+
+E a saída é:
+
+`Starts demonstration of the design patterns implementation and functions.
+You can debug the code if you want to see line by line.
+Enters facade method
+Does something with base one
+Does something with base two`
+
+#### Decorator
+
+![](./decorator.png)
+
+
+
+O Padrão Decorator **anexa responsabilidades adicionais a um objeto dinamicamente**. Os decoradores fornecem uma alternativa flexível de subclasse para estender a funcionalidade. Não seria necessário criar várias classes com herança para outras classes. Isso acontece quando existe um número muito grande de subclasses e o problema é que elas acabam tendo alguns **métodos que são iguais**. O decorator resolve esse problema. 
+
+![](./decorator-uml.jpg)
+
+
+
+Para implementar, primeiro vamos criar a interface que servirá de contrato para as classes poderem ser implementadas de acordo com seus decorators.
+
+```java
+/** 
+* The base class that maintains the contract for the subclasses 
+*/
+public interface BaseInterface {    
+    public void contract();
+}
+```
+
+Essa interface servirá de base para implementar a classe base e o decorator base
+
+```java
+public class BaseClass implements BaseInterface {    
+    @Override    public void contract() {        
+        System.out.println("Base Class");    
+    }
+}
+```
+
+Note que o decorator base é uma classe abstrata que deve implementar o método do contrato 
+
+```java
+public abstract class BaseDecorator implements BaseInterface {    
+    private BaseInterface baseInterface;    
+    public BaseDecorator(BaseInterface baseInterface) {        
+        this.baseInterface = baseInterface;    
+    }    
+    
+    @Override    
+    public void contract() {        
+        System.out.println("Base Decorator");        
+        baseInterface.contract();    
+    }
+}
+```
+
+Depois disso, é só implementar os decorators com as características que se que colocar nos objetos
+
+```java
+public class DecoratorOne extends BaseDecorator {    
+    public DecoratorOne(BaseInterface baseInterface) {        
+        super(baseInterface);    
+    }    
+    
+    @Override    
+    public void contract() {        
+        System.out.println("Applying DecoratorOne Settings");    
+    }
+}
+```
+
+```java
+public class DecoratorTwo extends BaseDecorator {    
+    public DecoratorTwo(BaseInterface baseInterface) {        
+        super(baseInterface);    
+    }    
+    
+    @Override    
+    public void contract() {        
+        System.out.println("Applying DecoratorTwo Settings");    
+    }
+}
+```
+
+Para instanciar o objeto com um decorator, basta criar o decorator passando a instância a qual se deseja adicionar os métodos específicos.
 
 ### Behavioral
 
