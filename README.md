@@ -381,6 +381,86 @@ Sets attribute one: AttributeOne Here
 Sets attribute Two: AttributeTwo here
 Finnaly builds Object`
 
+#### Prototype
+
+![](./prototype.png)
+
+O padrão de projeto prototype foi criado basicamente para você construir cópias idêntidas dos seus objetos. Esse padrão é importante pois imagine que você tem um objeto e deseja possuir um **novo objeto idêntico**. Alguns problemas que são resolvidos com prototype são: **clone de objetos com atributos privados**, o qual não dá pra atribuir do lado de fora da classe, e a **criação de novas instâncias** (que sempre é ruim quando não pe bem gerenciado.)
+
+O diagrama UML do prototype é:
+
+![](prototype-uml.png)
+
+A implementação do prototype é bem simples. A demonstração que será feita aqui vai ser para fins didáticos, visto que já é algo implementado no java.
+
+Primeiramente, é necessário criar uma classe base com o método clone() abstrato e um construtor que recebe como parâmetro uma instância da própria classe.
+
+```java
+/** 
+* Base class that maintains the contract 
+*/
+public abstract class BasePrototype {    
+    private String something;    
+    public BasePrototype(BasePrototype basePrototype) {        
+        this.something = basePrototype.something;    
+    }    
+    
+    /**     
+    * Abstract methot to be implemented      
+    * @return     
+    */    
+    abstract BasePrototype klone();
+}
+```
+
+Depois disso são criadas as classes filhas, que extenderão da classe base e implementarão o método 
+
+```java
+/** 
+* Concrete class representing object one 
+*/
+public class PrototypeOne extends BasePrototype {    
+    private String prototypeOne;    
+    public PrototypeOne(PrototypeOne prototypeOne) {        
+        super(prototypeOne);        
+        this.prototypeOne = prototypeOne.prototypeOne;    
+    }    
+    
+    /**     
+    * Clone() method implementation     
+    * @return the instance created     
+    */    
+    @Override    
+    BasePrototype klone() {        
+        return new PrototypeOne(this);    
+    }
+}
+```
+
+```java
+/** 
+* Second concrete class to clone 
+*/
+public class PrototypeTwo extends BasePrototype {    
+    private String prototypeTwo;    
+    public PrototypeTwo(PrototypeTwo prototypeTwo){        
+        super(prototypeTwo);        
+        prototypeTwo.prototypeTwo = prototypeTwo.prototypeTwo;    
+    }    
+    
+    /**     
+    * The Clone() method that clones the object creating a new instance     
+    * @return the object created     
+    */    
+    @Override    
+    BasePrototype klone() {        
+        return new PrototypeTwo(this);    
+    }
+}
+```
+
+É simples assim. Para fazer a chamada do método é só criar uma instancia com o construtor normal, e para fazer o cline, chamar o método klone().
+
 ### Structural
 
 #### Adapter
@@ -711,4 +791,8 @@ StateTwo{}`
 - [TutorialsPoint](https://www.tutorialspoint.com/design_pattern)
 - [DevMedia](https://www.devmedia.com.br/design-patterns-solucoes-para-problemas-em-projetos-orientado-a-objetos/31266)
 - Many other sites that I don't remember right now
+
+
+
+
 

@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda5d3c4-d68b-448e-bb08-723943ff2a4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/observer-uml.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/adapter/NewClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/adapter/OldClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/adapter/adapters/OldToNewAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/state-uml.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/state.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/prototype/BasePrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/prototype/PrototypeOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vc/com/justa/prototype/PrototypeTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot from 2019-09-08 09-59-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot from 2019-09-08 10-07-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/adapter/adapters/ObjectOneAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/adapter/adapters/ObjectTwoAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/adapter/interfaces/BaseInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/adapter/models/ObjectOneModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/adapter/models/ObjectTwoModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/observer/subjects/BaseSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-patterns/vc/com/justa/observer/subjects/BaseSubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/adapter/adapters/ObjectOneAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/adapter/adapters/ObjectTwoAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/adapter/interfaces/BaseInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/adapter/models/ObjectOneModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/adapter/models/ObjectTwoModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vc/com/justa/observer/subjects/BaseSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vc/com/justa/observer/subjects/BaseSubject.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +17,30 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@rai" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@rai" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,10 +62,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jst-messaging-ms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../justa-ws" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -107,6 +113,21 @@
       </map>
     </option>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@33b87f8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -127,7 +148,10 @@
       <workItem from="1568034082688" duration="595000" />
       <workItem from="1568042565736" duration="593000" />
       <workItem from="1568222677407" duration="6249000" />
-      <workItem from="1568253584261" duration="3599000" />
+      <workItem from="1568253584261" duration="4283000" />
+      <workItem from="1568291018852" duration="2296000" />
+      <workItem from="1568298913968" duration="587000" />
+      <workItem from="1569465612804" duration="1668000" />
     </task>
     <servers />
   </component>
